@@ -2,7 +2,7 @@ import AudioMotionAnalyzer from 'https://cdn.skypack.dev/audiomotion-analyzer?mi
 
 const visualizer = document.getElementById('visualizer');
 const audio = new Audio();
-audio.src = 'https://ccmixter.org/content/admiral_bob/admiral_bob_-_The_Remix_Wars_-_Stems.mp3'; // Placeholder music
+audio.src = '../music.mp3';
 audio.crossOrigin = 'anonymous';
 audio.loop = true;
 
